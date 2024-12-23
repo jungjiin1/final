@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@font-face {
+    font-family: 'NEXON Lv2 Gothic';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON%20Lv2%20Gothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* index스타일 적용 */
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    background: radial-gradient(
+        #ffffff00,
+        #000000  
+    );
+    opacity: 0.5;
+}
+
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 6;
+}
+.box01{
+    width: 100%;
+    padding-top: 54px;
+    text-align: center;
+
+}
+.box02{
+    width: 100%;
+    padding-top: 63px;
+    text-align: center;
+}
+.box02 > img{
+    animation-name: ani01;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes ani01{
+    0%{opacity: 0;width: 300px;}
+    100%{opacity: 1; width: 391px;}
+}
+.box03{
+    width: 100%;
+    padding-top: 53px;
+    text-align: center;
+
+}
+.box04{
+    width: 100%;
+    padding-top: 81px;
+    text-align: center;
+    font-family: "Noto Sans KR";
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 45px;
+    color: white;
+    animation-name: ani02;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes ani02{
+    0%{opacity: 0;line-height: 20px;}
+    100%{opacity: 1; }
+}
+
+
+/* sub스타일 적용 */
+.b01{height: 452px;}
+.b02{height: 751px;background-image: url(img/b02_01.png);}, {.b02
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;}
+.b02 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;}
+
+.b02 img {
+    width: 100%;
+    height: auto;
+    display: block;}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    line-height: 1.8;}
+
+.text-overlay h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.5;}
+
+.text-overlay p {
+    font-size: 18px;
+    margin: 15px 0; 
+    line-height: 1.8;}
+
+.b03
+    {position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;}
+
+{position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.b03 img {width: 100%;
+    height: auto;
+    display: block;}
+.b04    {position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;}
+
+{position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.b03 img {width: 100%;
+    height: auto;
+    display: block;}
+.b05    {position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;}
+
+{position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.b03 img {width: 100%;
+    height: auto;
+    display: block;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'NEXON Lv2 Gothic', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.b01 img, .b02 img, .b03 img, .b04 img, .b05 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;}
+
+.text-overlay h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;}
+
+.text-overlay p {
+    font-size: 18px;
+    color: white;}
+
+
+.line {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background-color: white;}
+
+
+.team-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;}
+
+.character {
+    text-align: center;
+    width: 150px;}
+
+.character img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;}
+.character p {
+    font-size: 16px;
+    font-weight: bold;}
+.map-title {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;}
+
+.maps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;}
+.map img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 10px;}
+.map p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;}
+    .b05 {
+        position: relative;
+        display: inline-block;
+    }
